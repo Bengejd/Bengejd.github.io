@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="62f8d4f7-0ae9-4eec-a069-55f248bb1453" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/assets/images/projects/freedom-summer-app.jpeg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
@@ -20,18 +19,19 @@
     <session id="-1259088924">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.open.time.1" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.closed" value="1" />
+          <entry key="project.open.time.1" value="2" />
+          <entry key="project.opened" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="html" value="8109" />
+          <entry key="html" value="8157" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="HTML" value="8109" />
+          <entry key="HTML" value="8157" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -54,18 +54,9 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="101">
-              <caret line="416" column="32" selection-start-line="416" selection-start-column="32" selection-end-line="416" selection-end-column="32" />
+            <state relative-caret-position="45">
+              <caret line="3" column="52" selection-start-line="3" selection-start-column="52" selection-end-line="3" selection-end-column="52" />
               <folding>
-                <element signature="e#30424#30429#0" expanded="true" />
-                <element signature="e#30429#30433#0" expanded="true" />
-                <element signature="e#30433#30440#0" expanded="true" />
-                <element signature="e#30773#30778#0" expanded="true" />
-                <element signature="e#30778#30782#0" expanded="true" />
-                <element signature="e#30782#30789#0" expanded="true" />
-                <element signature="e#31162#31167#0" expanded="true" />
-                <element signature="e#31167#31171#0" expanded="true" />
-                <element signature="e#31171#31178#0" expanded="true" />
                 <element signature="n#h4#0;n#div#2;n#div#0;n#div#0;n#aside#3;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
               </folding>
             </state>
@@ -110,11 +101,10 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1" />
+  <component name="ProjectFrameBounds">
     <option name="y" value="23" />
-    <option name="width" value="1233" />
-    <option name="height" value="721" />
+    <option name="width" value="1280" />
+    <option name="height" value="722" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -214,7 +204,7 @@
     </factor>
     <factor id="completionFinishedType">
       <dailyData date="03-10-2018">
-        <observation name="cancelled" value="6349.0" />
+        <observation name="cancelled" value="6392.0" />
         <observation name="explicitSelect" value="20.0" />
         <observation name="typedSelect" value="34.0" />
       </dailyData>
@@ -226,7 +216,7 @@
     </factor>
     <factor id="completionUsage">
       <dailyData date="03-10-2018">
-        <observation name="count" value="6403.0" />
+        <observation name="count" value="6446.0" />
       </dailyData>
     </factor>
     <factor id="doubleFeature:explicitProximity">
@@ -275,15 +265,7 @@
         <observation name="variance" value="703.558432" />
       </dailyData>
     </factor>
-    <factor id="doubleFeature:priority">
-      <dailyData date="03-10-2018">
-        <observation name="average" value="14139159487681126000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000.0" />
-        <observation name="count" value="89.0" />
-        <observation name="max" value="179769313486231570000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000.0" />
-        <observation name="min" value="0.0" />
-        <observation name="variance" value="�" />
-      </dailyData>
-    </factor>
+    <factor id="doubleFeature:priority" />
     <factor id="doubleFeature:prox_explicitlyImported">
       <dailyData date="03-10-2018">
         <observation name="UNDEFINED" value="45.0" />
@@ -398,7 +380,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -428,6 +409,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -501,12 +483,13 @@
       <workItem from="1499451071364" duration="4866000" />
       <workItem from="1499528305681" duration="11000" />
       <workItem from="1510212778725" duration="3621000" />
-      <workItem from="1538580101398" duration="10848000" />
+      <workItem from="1538580101398" duration="11472000" />
+      <workItem from="1538611500013" duration="19000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20178000" />
+    <option name="totallyTimeSpent" value="20821000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="722" extended-state="6" />
@@ -515,8 +498,6 @@
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17170112" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Tail" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -527,6 +508,8 @@
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.32750398" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Tail" order="10" />
+      <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -605,27 +588,18 @@
     <entry file="file://$PROJECT_DIR$/assets/images/projects/freedom.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/images/projects/SocialPnt.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="101">
-          <caret line="416" column="32" selection-start-line="416" selection-start-column="32" selection-end-line="416" selection-end-column="32" />
+        <state relative-caret-position="45">
+          <caret line="3" column="52" selection-start-line="3" selection-start-column="52" selection-end-line="3" selection-end-column="52" />
           <folding>
-            <element signature="e#30424#30429#0" expanded="true" />
-            <element signature="e#30429#30433#0" expanded="true" />
-            <element signature="e#30433#30440#0" expanded="true" />
-            <element signature="e#30773#30778#0" expanded="true" />
-            <element signature="e#30778#30782#0" expanded="true" />
-            <element signature="e#30782#30789#0" expanded="true" />
-            <element signature="e#31162#31167#0" expanded="true" />
-            <element signature="e#31167#31171#0" expanded="true" />
-            <element signature="e#31171#31178#0" expanded="true" />
             <element signature="n#h4#0;n#div#2;n#div#0;n#div#0;n#aside#3;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
           </folding>
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/images/projects/SocialPnt.png">
+      <provider selected="true" editor-type-id="images" />
     </entry>
   </component>
 </project>

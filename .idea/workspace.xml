@@ -18,8 +18,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="152">
-              <caret line="1121" column="31" lean-forward="true" selection-start-line="1121" selection-start-column="31" selection-end-line="1121" selection-end-column="31" />
+            <state relative-caret-position="182">
+              <caret line="835" column="14" lean-forward="true" selection-start-line="835" selection-start-column="14" selection-end-line="835" selection-end-column="14" />
               <folding>
                 <element signature="n#div#4;n#div#0;n#div#0;n#section#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#div#1;n#div#0;n#div#0;n#section#2;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
@@ -76,6 +76,7 @@
       <find>I had a friend who kept getting kicked from our Fraternity GroupMe, and would</find>
       <find>Blog</find>
       <find>github</find>
+      <find>followers</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -317,7 +318,7 @@
         <observation name="cancelled" value="273.0" />
       </dailyData>
       <dailyData date="20-07-2019">
-        <observation name="cancelled" value="1418.0" />
+        <observation name="cancelled" value="1422.0" />
         <observation name="typedSelect" value="24.0" />
       </dailyData>
     </factor>
@@ -343,7 +344,7 @@
         <observation name="count" value="273.0" />
       </dailyData>
       <dailyData date="20-07-2019">
-        <observation name="count" value="1442.0" />
+        <observation name="count" value="1446.0" />
       </dailyData>
     </factor>
     <factor id="doubleFeature:explicitProximity">
@@ -829,7 +830,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="30239000" />
+    <option name="totallyTimeSpent" value="30323000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="23" width="1280" height="719" extended-state="6" />
@@ -956,8 +957,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="1121" column="31" lean-forward="true" selection-start-line="1121" selection-start-column="31" selection-end-line="1121" selection-end-column="31" />
+        <state relative-caret-position="182">
+          <caret line="835" column="14" lean-forward="true" selection-start-line="835" selection-start-column="14" selection-end-line="835" selection-end-column="14" />
           <folding>
             <element signature="n#div#4;n#div#0;n#div#0;n#section#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#1;n#div#0;n#div#0;n#section#2;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />

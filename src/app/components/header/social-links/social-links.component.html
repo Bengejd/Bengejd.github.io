@@ -1,0 +1,10 @@
+<ul class="social list-inline">
+  <li *ngFor="let link of socialLinks; let i = index;"
+      class="list-inline-item"
+      [class.last-item]="i === socialLinks.length">
+    <a target="_blank"
+       [href]="link.href">
+      <i class="fab {{link.icon}}"></i>
+    </a>
+  </li>
+</ul>

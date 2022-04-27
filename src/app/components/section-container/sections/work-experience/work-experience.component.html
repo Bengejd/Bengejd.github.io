@@ -1,0 +1,28 @@
+<section class="experience section">
+  <div class="section-inner">
+    <h2 class="heading">Work Experience</h2>
+    <div class="content">
+      <ng-container *ngFor="let exp of workExperience; let i = index">
+        <div class="item">
+          <h3 class="title">{{ exp.title }} &#8226;
+            <span class="place">
+          <a href="{{exp.url}}">{{exp.company}}</a>
+          </span> &#8226;
+            <span class="year">({{exp.date}})</span>
+          </h3>
+          <p *ngFor="let text of exp.texts"
+             [innerHTML]="text"></p>
+          <ng-container *ngIf="exp.sub as sub">
+            <h4 class="title">{{sub.title}}</h4>
+            <ul>
+              <li *ngFor="let text of sub.texts"
+                  [innerHTML]="text"></li>
+            </ul>
+          </ng-container>
+        </div>
+        <hr *ngIf="i !== workExperience.length - 1"
+            class="divider">
+      </ng-container>
+    </div>
+  </div>
+</section>

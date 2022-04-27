@@ -1,28 +1,38 @@
-import { NgModule } from '@angular/core';
-import { BrowserModule } from '@angular/platform-browser';
+import { NgModule } from "@angular/core";
+import { BrowserModule } from "@angular/platform-browser";
 
-import { AppComponent } from './app.component';
-import { SidebarCardComponent } from './components/sidebar-card/sidebar-card.component';
-import { SectionCardComponent } from './components/section-card/section-card.component';
-import { HeaderComponent } from './components/header/header.component';
-import { WorkExperienceComponent } from './components/work-experience/work-experience.component';
-import { ProjectExperienceComponent } from './components/project-experience/project-experience.component';
-import { FooterComponent } from './components/footer/footer.component';
+import { AppComponent } from "./app.component";
+import { FooterComponent } from "./components/footer/footer.component";
+import { HeaderComponent } from "./components/header/header.component";
+import { SocialLinksComponent } from "./components/header/social-links/social-links.component";
+import { SectionContainerComponent } from "./components/section-container/section-container.component";
+import { AboutMeComponent } from "./components/section-container/sections/about-me/about-me.component";
+import { ProjectExperienceComponent } from "./components/section-container/sections/project-experience/project-experience.component";
+import { WorkExperienceComponent } from "./components/section-container/sections/work-experience/work-experience.component";
+import { SidebarCardComponent } from "./components/sidebar/sidebar-card/sidebar-card.component";
+import { SidebarComponent } from "./components/sidebar/sidebar.component";
+import { LatestProjectsComponent } from './components/section-container/sections/latest-projects/latest-projects.component';
+import { GithubProjectsComponent } from './components/section-container/sections/github-projects/github-projects.component';
 
 @NgModule({
-  declarations: [
-    AppComponent,
-    SidebarCardComponent,
-    SectionCardComponent,
-    HeaderComponent,
-    WorkExperienceComponent,
-    ProjectExperienceComponent,
-    FooterComponent
-  ],
-  imports: [
-    BrowserModule
-  ],
-  providers: [],
-  bootstrap: [AppComponent]
-})
-export class AppModule { }
+            declarations: [
+              AppComponent,
+              SidebarCardComponent,
+              HeaderComponent,
+              WorkExperienceComponent,
+              ProjectExperienceComponent,
+              FooterComponent,
+              SocialLinksComponent,
+              AboutMeComponent,
+              SectionContainerComponent,
+              SidebarComponent,
+              LatestProjectsComponent,
+              GithubProjectsComponent,
+            ],
+            imports: [
+              BrowserModule,
+            ],
+            providers: [],
+            bootstrap: [AppComponent],
+          })
+export class AppModule {}

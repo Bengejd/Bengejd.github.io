@@ -1,4 +1,4 @@
-/*!   
+/*!
  * Template Name: Developer - Responsive Website Template for Developers
  * Version: 2.0
  * Author: Xiaoying Riley
@@ -7,26 +7,31 @@
  * Website: https://themes.3rdwavemedia.com/
 */
 body {
-  font-family: 'Lato', arial, sans-serif;
+  font-family: Lato, arial, sans-serif;
   color: #434343;
-  background: #DAE3E7;
+  background: #dae3e7;
   font-size: 16px;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
-h1, h2, h3, h4, h5, h6 {
-  font-family: 'Montserrat', sans-serif;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: Montserrat, sans-serif;
   font-weight: 700;
   color: #778492;
 }
 
 a {
-  color: #3AAA64;
-  -webkit-transition: all 0.4s ease-in-out;
-  -moz-transition: all 0.4s ease-in-out;
-  -ms-transition: all 0.4s ease-in-out;
-  -o-transition: all 0.4s ease-in-out;
+  color: #3aaa64;
+  transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
 }
 
 a:hover {
@@ -39,27 +44,31 @@ a:focus {
   text-decoration: none;
 }
 
-.btn, a.btn {
-  -webkit-transition: all 0.4s ease-in-out;
-  -moz-transition: all 0.4s ease-in-out;
-  -ms-transition: all 0.4s ease-in-out;
-  -o-transition: all 0.4s ease-in-out;
-  font-family: 'Montserrat', arial, sans-serif;
+.btn,
+a.btn {
+  transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+  font-family: Montserrat, arial, sans-serif;
   padding: 8px 16px;
   font-weight: bold;
 }
 
-.btn .svg-inline--fa, a.btn .svg-inline--fa {
+.btn .svg-inline--fa,
+a.btn .svg-inline--fa {
   margin-right: 5px;
   position: relative;
   top: -2px;
 }
 
-.btn:focus, a.btn:focus {
+.btn:focus,
+a.btn:focus {
   color: #fff;
 }
 
-a.btn-cta-primary, .btn-cta-primary {
+a.btn-cta-primary,
+.btn-cta-primary {
   background: #54ba4e;
   border: 1px solid #54ba4e;
   color: #fff;
@@ -67,21 +76,24 @@ a.btn-cta-primary, .btn-cta-primary {
   text-transform: uppercase;
 }
 
-a.btn-cta-primary:hover, .btn-cta-primary:hover {
+a.btn-cta-primary:hover,
+.btn-cta-primary:hover {
   background: #49ac43;
   border: 1px solid #49ac43;
   color: #fff;
 }
 
-a.btn-cta-secondary, .btn-cta-secondary {
-  background: #479FC8;
-  border: 1px solid #479FC8;
+a.btn-cta-secondary,
+.btn-cta-secondary {
+  background: #479fc8;
+  border: 1px solid #479fc8;
   color: #fff;
   font-weight: 600;
   text-transform: uppercase;
 }
 
-a.btn-cta-secondary:hover, .btn-cta-secondary:hover {
+a.btn-cta-secondary:hover,
+.btn-cta-secondary:hover {
   background: #3893bd;
   border: 1px solid #3893bd;
   color: #fff;
@@ -92,16 +104,16 @@ a.btn-cta-secondary:hover, .btn-cta-secondary:hover {
 }
 
 .badge-theme {
-  background: #3AAA64;
+  background: #3aaa64;
   font-size: 12px;
   color: #fff;
-  -webkit-border-radius: 2px;
-  -moz-border-radius: 2px;
-  -ms-border-radius: 2px;
-  -o-border-radius: 2px;
   border-radius: 2px;
-  -moz-background-clip: padding;
-  -webkit-background-clip: padding-box;
+  border-radius: 2px;
+  border-radius: 2px;
+  border-radius: 2px;
+  border-radius: 2px;
+  background-clip: padding;
+  background-clip: padding-box;
   background-clip: padding-box;
 }
 
@@ -140,7 +152,7 @@ a.dotted-link:hover {
 
 .header .profile-content .desc {
   color: #778492;
-  font-family: "Lato", arial, sans-serif;
+  font-family: Lato, arial, sans-serif;
   font-weight: 400;
   font-size: 24px;
   margin-top: 0;
@@ -152,13 +164,13 @@ a.dotted-link:hover {
   width: 36px;
   height: 36px;
   display: inline-block;
-  -webkit-border-radius: 50%;
-  -moz-border-radius: 50%;
-  -ms-border-radius: 50%;
-  -o-border-radius: 50%;
   border-radius: 50%;
-  -moz-background-clip: padding;
-  -webkit-background-clip: padding-box;
+  border-radius: 50%;
+  border-radius: 50%;
+  border-radius: 50%;
+  border-radius: 50%;
+  background-clip: padding;
+  background-clip: padding-box;
   background-clip: padding-box;
   color: #fff;
   text-align: center;
@@ -203,6 +215,7 @@ a.dotted-link:hover {
 }
 
 /* About Section */
+
 /* Latest Section */
 .latest .item {
   margin-bottom: 30px;
@@ -265,7 +278,7 @@ a.dotted-link:hover {
 }
 
 .latest .has-ribbon .text {
-  background: #3AAA64;
+  background: #3aaa64;
   color: #fff;
 }
 
@@ -279,26 +292,27 @@ a.dotted-link:hover {
 }
 
 .latest .has-ribbon .ribbon .text {
-  font-family: 'Montserrat', sans-serif;
+  font-family: Montserrat, sans-serif;
   position: relative;
   left: -8px;
   top: 18px;
   width: 158px;
-  padding: 10px 10px;
+  padding: 10px;
   font-size: 15px;
   font-weight: bold;
   text-align: center;
   text-transform: uppercase;
   color: #fff;
-  background-color: #479FC8;
-  -webkit-transform: rotate(45deg) translate3d(0, 0, 0);
-  -moz-transform: rotate(45deg) translate3d(0, 0, 0);
-  -ms-transform: rotate(45deg) translate3d(0, 0, 0);
-  -o-transform: rotate(45deg) translate3d(0, 0, 0);
+  background-color: #479fc8;
+  transform: rotate(45deg) translate3d(0, 0, 0);
+  transform: rotate(45deg) translate3d(0, 0, 0);
+  transform: rotate(45deg) translate3d(0, 0, 0);
+  transform: rotate(45deg) translate3d(0, 0, 0);
 }
 
-.latest .has-ribbon .ribbon .text:before, .latest .has-ribbon .ribbon .text:after {
-  content: '';
+.latest .has-ribbon .ribbon .text::before,
+.latest .has-ribbon .ribbon .text::after {
+  content: "";
   position: absolute;
   bottom: -5px;
   border-top: 5px solid #276582;
@@ -306,11 +320,11 @@ a.dotted-link:hover {
   border-right: 5px solid transparent;
 }
 
-.latest .has-ribbon .ribbon .text:before {
+.latest .has-ribbon .ribbon .text::before {
   left: 0;
 }
 
-.latest .has-ribbon .ribbon .text:after {
+.latest .has-ribbon .ribbon .text::after {
   right: 0;
 }
 
@@ -356,7 +370,7 @@ a.dotted-link:hover {
 }
 
 .experience .item .title .place a:hover {
-  color: #666666;
+  color: #666;
 }
 
 .experience .item .title .year {
@@ -383,10 +397,10 @@ a.dotted-link:hover {
 
 .ghfeed,
 .ghfeed *,
-.ghfeed *:before,
-.ghfeed *:after {
-  -webkit-box-sizing: content-box;
-  -moz-box-sizing: content-box;
+.ghfeed *::before,
+.ghfeed *::after {
+  box-sizing: content-box;
+  box-sizing: content-box;
   box-sizing: content-box;
 }
 
@@ -432,7 +446,7 @@ a.dotted-link:hover {
   color: #ccd1d6;
   font-size: 14px;
   font-weight: 400;
-  font-family: "Lato", arial, sans-serif;
+  font-family: Lato, arial, sans-serif;
   position: absolute;
   right: 0;
   top: 0;
@@ -510,7 +524,7 @@ a.dotted-link:hover {
 }
 
 .education .item .university {
-  font-family: "Lato", arial, sans-serif;
+  font-family: Lato, arial, sans-serif;
   font-size: 13px;
   color: #999;
   font-weight: 600;
@@ -643,18 +657,22 @@ a.dotted-link:hover {
   .header {
     text-align: center;
   }
+
   .header .profile-image {
     float: none !important;
     margin: 0 auto;
   }
+
   .header .profile-content {
     float: none !important;
     text-align: center;
   }
+
   .header .btn {
     margin-top: 30px;
     float: none !important;
   }
+
   .project-image {
     margin-bottom: 15px;
   }

@@ -1,0 +1,43 @@
+<section class="github section">
+  <div class="section-inner">
+    <h2 class="heading">Open Source Contributions</h2>
+    <div class="content">
+      <div class="item">
+        <h3 class="title">Branch.io <span class="badge badge-theme">Cross API integration / Documentation</span></h3>
+        <p class="mb-2">This was probably the first time that I felt like a true developer. I was looking to integrate Firebase's <a href="https://firebase.google.com/docs/dynamic-links/">Dynamic Link</a> service into SocialPnt. After implementing their native SDK, I realized that their coverage of edge cases was significantly lacking. After searching around for a bit, I discovered <a href="https://branch.io/">Branch.io</a> and immediately fell in love with their service. There was only one catch. I had to get an email link from Firebase, which was only accessible via their Dynamic Link service.</p>
+        <p>After doing some digging I came up with a solution that leveraged Branch.io's edge cases with Firebase's email link, and was given warm remarks from one of the Branch.io developers for my work. He said he would pass my solution onto their documentation team to see if it could be added to the repository, as he felt that other developers would benefit from it.</p>
+        <p><a class="more-link"
+              href="https://github.com/BranchMetrics/cordova-ionic-phonegap-branch-deep-linking/issues/442#issuecomment-380270201"
+              target="_blank"><i class="fas fa-external-link-alt"></i>Find out more if interested</a></p>
+      </div><!--//item-->
+      <hr class="divider">
+      <div class="item">
+        <h3 class="title">Ionic <span class="badge badge-theme">Long-standing issue documentation</span></h3>
+        <p class="mb-2">This was an issue that I originally opened with the Ionic team, but despite receiving quite some notoriety within the community it was unfortunately left unsolved. The issue was with their <strong>Ionic cordova build prod</strong> command running out of memory, even on high-end devices. This was due to one of the optimizations that the command was running. The flag was causing a memory-leak within some of their dependencies and the recursive use of non-project file-paths.</p>
+        <p>This issue was only prevalent in large-scale projects, and would not be noticed by beginners or simpler applications.</p>
+        <p>After three months of testing out fixes and hoping that the team would address this issue officially, I came up with a solution that solved the issue at large. Later on ths issue was fixed in their <strong>4.0</strong> release of Ionic, but for <strong>3.x</strong> users like myself, the compiled solution worked in the meantime.</p>
+        <p><a class="more-link"
+              href="https://github.com/ionic-team/ionic-app-scripts/issues/1426#issuecomment-407485178"
+              target="_blank"><i class="fas fa-external-link-alt"></i>Find out more if interested</a></p>
+      </div><!--//item-->
+      <hr class="divider">
+      <div class="item">
+        <h3 class="title">Cordova-Plugin-Camera-Preview <span class="badge badge-theme">Solution documentation</span></h3>
+        <p class="mb-2">This was something that I originally ran into while using the Camera-Preview plugin. The basis of the issue was with implementing a pinch-to-zoom directive, when you couldn't interact with the camera preview directly due to library limitations.</p>
+        <p>I ended up posting this solution for another user who opened the same issue that I encountered while originally implementing the plugin.</p>
+        <p><a class="more-link"
+              href="https://github.com/cordova-plugin-camera-preview/cordova-plugin-camera-preview/issues/397#issuecomment-406366801"
+              target="_blank"><i class="fas fa-external-link-alt"></i>Find out more if interested</a></p>
+      </div><!--//item-->
+      <hr class="divider">
+      <div class="item">
+        <h3 class="title">Ionic3-components <span class="badge badge-theme">UI Theme update</span></h3>
+        <p class="mb-2">The Ionic3-Components library is a fantastic resource for new Ionic users to find all sorts non-intuitive UI examples.</p>
+        <p>I worked on some stylistic issues that the library had, as well as refactoring the repository as a whole to make it more streamlined for user-use. My pull request is still open, waiting for the project to come out of inactivity.</p>
+        <p><a class="more-link"
+              href="https://github.com/yannbf/ionic3-components/pull/92"
+              target="_blank"><i class="fas fa-external-link-alt"></i>Find out more if interested</a></p>
+      </div><!--//item-->
+    </div><!--//content-->
+  </div><!--//secton-inner-->
+</section><!--//section-->

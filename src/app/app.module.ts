@@ -7,12 +7,12 @@ import { HeaderComponent } from "./components/header/header.component";
 import { SocialLinksComponent } from "./components/header/social-links/social-links.component";
 import { SectionContainerComponent } from "./components/section-container/section-container.component";
 import { AboutMeComponent } from "./components/section-container/sections/about-me/about-me.component";
+import { GithubProjectsComponent } from "./components/section-container/sections/github-projects/github-projects.component";
+import { NoteworthyProjectsComponent } from "./components/section-container/sections/noteworthy-projects/noteworthy-projects.component";
 import { ProjectExperienceComponent } from "./components/section-container/sections/project-experience/project-experience.component";
 import { WorkExperienceComponent } from "./components/section-container/sections/work-experience/work-experience.component";
 import { SidebarCardComponent } from "./components/sidebar/sidebar-card/sidebar-card.component";
 import { SidebarComponent } from "./components/sidebar/sidebar.component";
-import { LatestProjectsComponent } from './components/section-container/sections/latest-projects/latest-projects.component';
-import { GithubProjectsComponent } from './components/section-container/sections/github-projects/github-projects.component';
 
 @NgModule({
             declarations: [
@@ -26,7 +26,7 @@ import { GithubProjectsComponent } from './components/section-container/sections
               AboutMeComponent,
               SectionContainerComponent,
               SidebarComponent,
-              LatestProjectsComponent,
+              NoteworthyProjectsComponent,
               GithubProjectsComponent,
             ],
             imports: [

@@ -5,59 +5,68 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="62f8d4f7-0ae9-4eec-a069-55f248bb1453" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/app/components/header/social-links/social-links.component.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/components/header/social-links/social-links.component.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/components/section-container/section-container.component.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/components/section-container/section-container.component.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/components/section-container/sections/about-me/about-me.component.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/components/section-container/sections/about-me/about-me.component.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/components/section-container/sections/github-projects/github-projects.component.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/components/section-container/sections/github-projects/github-projects.component.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/components/section-container/sections/latest-projects/latest-projects.component.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/components/section-container/sections/latest-projects/latest-projects.component.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/components/section-container/sections/latest-projects/latest-projects.component.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/components/section-container/sections/project-experience/project-experience.component.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/components/section-container/sections/project-experience/project-experience.component.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/components/section-container/sections/work-experience/work-experience.component.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/components/section-container/sections/work-experience/work-experience.component.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/components/section-container/sections/work-experience/work-experience.component.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/components/sidebar/sidebar-card/sidebar-card.component.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/components/sidebar/sidebar-card/sidebar-card.component.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/components/sidebar/sidebar.component.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/components/sidebar/sidebar.component.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/components/sidebar/sidebar.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Bengejd.github.io.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Bengejd.github.io.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/projects/Pantheon_Logo.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular.json" beforeDir="false" afterPath="$PROJECT_DIR$/angular.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/app.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/styles.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/docs/Jordan_Benge_Resume.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/docs/Jordan_Benge_Resume_bac.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/Thumbs.db" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/profile.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/projects/IPA_LOGO.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/projects/NOLS_LOGO.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/projects/SocialPnt.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/projects/Thumbs.db" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/projects/Ytrap.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/projects/freedom-summer-app.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/projects/freedom.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/projects/groupme.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/projects/last-cam-logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/projects/wt-logo-icon.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/main.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/plugins/bootstrap/.editorconfig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/plugins/bootstrap/.gitattributes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/plugins/bootstrap/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/plugins/bootstrap/.hound.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/plugins/bootstrap/.travis.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/plugins/bootstrap/css/bootstrap-grid.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/plugins/bootstrap/css/bootstrap-grid.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/plugins/bootstrap/css/bootstrap-grid.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/plugins/bootstrap/css/bootstrap-grid.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/plugins/bootstrap/css/bootstrap-reboot.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/plugins/bootstrap/css/bootstrap-reboot.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/plugins/bootstrap/css/bootstrap-reboot.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/plugins/bootstrap/css/bootstrap-reboot.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/plugins/bootstrap/css/bootstrap.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/plugins/bootstrap/css/bootstrap.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/plugins/bootstrap/css/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/plugins/bootstrap/css/bootstrap.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/plugins/bootstrap/js/bootstrap.bundle.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/plugins/bootstrap/js/bootstrap.bundle.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/plugins/bootstrap/js/bootstrap.bundle.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/plugins/bootstrap/js/bootstrap.bundle.min.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/plugins/bootstrap/js/bootstrap.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/plugins/bootstrap/js/bootstrap.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/plugins/bootstrap/js/bootstrap.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/plugins/bootstrap/js/bootstrap.min.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/plugins/jquery-3.3.1.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/plugins/popper.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/scss/_base.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/scss/_mixins.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/scss/_responsive.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/scss/styles.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/app.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/components/footer/footer.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/footer/footer.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/components/header/header.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/header/header.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/components/header/header.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/header/header.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/components/project-experience/project-experience.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/header/social-links/social-links.component.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/components/project-experience/project-experience.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/section-container/sections/project-experience/project-experience.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/components/project-experience/project-experience.component.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/components/section-card/section-card.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/section-container/section-container.component.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/components/section-card/section-card.component.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/components/section-card/section-card.component.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/components/sidebar-card/sidebar-card.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/section-container/sections/about-me/about-me.component.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/components/sidebar-card/sidebar-card.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/sidebar/sidebar-card/sidebar-card.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/components/sidebar-card/sidebar-card.component.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/components/work-experience/work-experience.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/section-container/sections/github-projects/github-projects.component.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/components/work-experience/work-experience.component.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/components/work-experience/work-experience.component.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/css/styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/images/projects/wt-logo-icon.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/images/projects/wt-logo-icon.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/js/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/plugins/bootstrap/css/bootstrap-grid.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/plugins/bootstrap/css/bootstrap-grid.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/plugins/bootstrap/css/bootstrap-reboot.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/plugins/bootstrap/css/bootstrap-reboot.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/plugins/bootstrap/css/bootstrap.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/plugins/bootstrap/css/bootstrap.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/plugins/bootstrap/js/bootstrap.bundle.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/plugins/bootstrap/js/bootstrap.bundle.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/plugins/bootstrap/js/bootstrap.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/plugins/bootstrap/js/bootstrap.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/scss/_base.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/_base.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/components/section-container/section-container.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/section-container/section-container.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/components/section-container/sections/about-me/about-me.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/section-container/sections/about-me/about-me.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/components/section-container/sections/github-projects/github-projects.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/section-container/sections/github-projects/github-projects.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/components/section-container/sections/github-projects/github-projects.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/section-container/sections/github-projects/github-projects.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/components/section-container/sections/latest-projects/latest-projects.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/section-container/sections/noteworthy-projects/noteworthy-projects.component.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/components/section-container/sections/latest-projects/latest-projects.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/section-container/sections/noteworthy-projects/noteworthy-projects.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/components/section-container/sections/latest-projects/latest-projects.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/section-container/sections/noteworthy-projects/noteworthy-projects.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/components/section-container/sections/project-experience/project-experience.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/section-container/sections/project-experience/project-experience.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/components/section-container/sections/project-experience/project-experience.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/section-container/sections/project-experience/project-experience.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/components/section-container/sections/work-experience/work-experience.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/section-container/sections/work-experience/work-experience.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/components/sidebar/sidebar.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/sidebar/sidebar.component.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -809,9 +818,11 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "code.cleanup.on.save": "true",
-    "last_opened_file_path": "C:/Users/Benge/Documents/GitHub/Bengejd.github.io/src/assets",
+    "last_opened_file_path": "C:/Users/Benge/Documents/GitHub/Bengejd.github.io/src/assets/images/projects",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.stylelint": "true",
     "node.js.detected.package.tslint": "true",
@@ -826,6 +837,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Benge\Documents\GitHub\Bengejd.github.io\src\assets\images\projects" />
       <recent name="C:\Users\Benge\Documents\GitHub\Bengejd.github.io\src\assets" />
       <recent name="C:\Users\Benge\Documents\GitHub\Bengejd.github.io" />
     </key>
@@ -878,6 +890,7 @@
       <workItem from="1545617047520" duration="880000" />
       <workItem from="1563617967628" duration="5562000" />
       <workItem from="1651074872131" duration="1493000" />
+      <workItem from="1651111998198" duration="1943000" />
     </task>
     <servers />
   </component>

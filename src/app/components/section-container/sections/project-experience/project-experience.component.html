@@ -2,39 +2,26 @@
   <div class="section-inner">
     <h2 class="heading">Other Projects</h2>
     <div class="content">
-      <div class="item">
-        <h3 class="title">Toggl Invoice Generator <span class="badge badge-theme">Public</span></h3>
-        <p class="mb-2">This was a quality of life improvement type of project for me. My team and I use Toggl to track our hours for working remotely, but Toggl requires a premium account for invoice generation, and even then, the invoices were not all that nice to look at. Since I do not control the team account, I was left with having to generate my invoices each week by hand.</p>
-        <p>This was a necessary evil, and often I dreaded having to do it. A lot goes into proper invoice generation for our company - calculating each individual task's hourly rate, calculating the total invoice cost and time, updating the appropriate dates and payout periods, bumping the invoice number, etc... all in all, it would take me about an hour or two every two weeks, depending on how many tickets I cleared that pay period, but I always dreaded it.</p>
-        <p>So I decided one day that I was tired of generating the invoices by hand, and set out to try and automate it for myself. Toggl's documentation is really nice, but the hardest part was properly filling out my invoice template that I had gotten attached to over time.</p>
-        <p>After a few hours of trial and error (Python and DocX files don't like each-other when tables are involved), I streamlined that process from an hour or two every two weeks to about three seconds. Now it automatically pulls my work hours from the last two weeks, using the Toggl API, generates the invoice, increments the invoice number, totals the hours, calculates my hourly rate for each item I worked on and then updates a local database with the relevant information for archival purposes. Now all I have do to is drag the file into Google Drive, and send it off to my boss to get paid.</p>
-        <p class="title">Languages</p>
-        <p>The Toggl Invoice Generator is written in <strong>Python</strong>, and utilizes the <strong>Toggl API</strong>, and a custom DocX template of my creation.</p>
-      </div><!--//item-->
-      <hr class="divider">
-      <div class="item">
-        <h3 class="title"><a href="https://github.com/Bengejd/Deluge_to_Transmission_migration">Deluge to Transmission Migration Assistant</a> <span class="badge badge-theme">Public</span></h3>
-        <p class="summary">This was a little program I created, because I discovered that the Linux torrenting client (Deluge) was a bit lacking in what I wanted it to do - scheduled throttling being a big one, and as a result wanted to switch to Transmission as my torrent client.</p>
-        <p>When I went to switch to Transmission, I realized that I had forgot to select a setting in Deluge called "Make a copy of torrents", before adding some odd 200+ torrents. Instead of manually adding all 200+ torrents to the Transmission client, I decided to figure out how to automate that process for myself & others.</p>
-        <p class="title">Languages</p>
-        <p>This project was written in <strong>Python</strong>, and leverages the <strong>Selenium Chrome Driver</strong> to automate adding magnet links to their web interface.</p>
-      </div><!--//item-->
-      <hr class="divider">
-      <div class="item">
-        <h3 class="title">GroupMe Bot <span class="badge badge-theme">Private</span></h3>
-        <p class="mb-2">This was a fun side project of mine. I had a friend who kept getting kicked from our Fraternity GroupMe for posting terrible memes, and he would subsequently be out of the GroupMe more than he was in it.</p>
-        <p>Instead of having to manually re-add him all of the time, I decided to create a bot that would sit around, waiting for someone to get removed from the GroupMe. Once the notification is received, the bot quickly cross-checks whether the removed userID belongs to this particular friend - or myself, and re-adds them if so.</p>
-        <p class="title">Languages</p>
-        <p>The GroupMe bot is written in <strong>Python</strong> and is hosted on The GroupMe bot is written in <strong>Python</strong> using the <strong>GroupMe API</strong> and is <strong>Heroku</strong> for free. hosted on <strong>Heroku</strong> for free.</p>
-      </div><!--//item-->
-      <hr class="divider">
-      <div class="item">
-        <h3 class="title">Inspectrum - Fire-safety Admin dashboard <span class="badge badge-theme">Private</span></h3>
-        <p class="summary">Inspectrum was a unique project that I worked on under the direction of a small team based in Philadelphia, PA. I worked remotely for the team, a small non-technical team based in Philadelphia, PA. I worked remotely as he sole communicating via Skype, only meeting them in person once during our time together. developer for the team, communicating via Skype, only meeting them in person once during our time together.</p>
-        <p>Inspectrum solved an issue that many of us would never know was an issue at all. When you own a building, be it an apartment complex, warehouse, or corporate office downtown, all fire-safety equipment (sprinklers, fire-extinguishers, etc...) need to have a certified inspection on a particular time table based on the item. Inspectrum gives it's users the ability to track upcoming inspection time-tables, replacement costs, inspection logs, and much more.</p>
-        <p class="title">Languages</p>
-        <p>Inspectrum is written in <strong>Angular 4</strong>, <strong>Typescript</strong> and <strong>SCSS</strong>, while leveraging <strong>Firebase Realtime database</strong> as its backend provider.</p>
-      </div><!--//item-->
-    </div><!--//content-->
-  </div><!--//section-inner-->
-</section><!--//section-->
+
+      <div *ngFor="let p of otherProjects; let i = index"
+           class="item">
+        <hr class="divider">
+        <h3 class="title">{{p.title}}
+          <ng-container *ngIf="p.titleBadge">
+            &#8226;
+            <span class="badge badge-theme"
+                  [class.badge-theme-abandoned]="p.titleBadge === 'Abandoned'"
+                  [class.badge-theme-private]="p.titleBadge === 'Private'">{{p.titleBadge}}</span>
+          </ng-container>
+        </h3>
+        <p *ngFor="let item of p.texts"
+           [innerHTML]="item"></p>
+        <ng-container *ngFor="let sub of p.sub">
+          <h4 class="title">{{sub.title}}</h4>
+          <p *ngFor="let item of sub.texts"
+             [innerHTML]="item"></p>
+        </ng-container>
+      </div>
+    </div>
+  </div>
+</section>

@@ -1,0 +1,104 @@
+<section class="latest section">
+  <div class="section-inner">
+    <h2 class="heading">Featured Projects</h2>
+    <div class="content">
+
+      <ng-container *ngFor="let p of featuredProjects; let i = index;">
+        <div class="item featured text-center">
+          <hr class="divider">
+          <h3 class="title">
+            <a href="{{p.url}}"
+               target="_blank">{{p.title}}</a>
+          </h3>
+          <p class="summary">
+            {{p.summary}}
+          </p>
+          <div class="featured-image">
+            <a class="col-md-4 col-12"
+               href="{{p.url}}"
+               target="_blank">
+              <img class="img-fluid project-image"
+                   alt="{{p.title}}"
+                   src="{{p.image}}">
+            </a>
+          </div>
+          <div class="desc text-left">
+            <p *ngFor="let text of p.texts"
+               [innerHTML]="text"></p>
+            <ng-container *ngFor="let sub of p.sub">
+              <h4 class="title">{{sub.title}}</h4>
+              <ng-container *ngIf="sub.isList">
+                <ul>
+                  <li *ngFor="let item of sub.texts"
+                      [innerHTML]="item"></li>
+                </ul>
+              </ng-container>
+              <ng-container *ngIf="!sub.isList">
+                <p *ngFor="let item of sub.texts"
+                   [innerHTML]="item"></p>
+              </ng-container>
+            </ng-container>
+            <p *ngIf="p.githubLink">
+              <a class="more-link"
+                 href="{{p.githubLink}}"
+                 target="_blank">
+                <i class="fas fa-external-link-alt"></i>
+                View on GitHub
+              </a>
+            </p>
+          </div>
+        </div>
+      </ng-container>
+
+    </div>
+  </div>
+</section>
+
+<section class="latest section">
+  <div class="section-inner">
+    <h2 class="heading">Projects</h2>
+    <div class="content">
+      <ng-container *ngFor="let p of nonFeaturedProjects; let i = index">
+        <hr class="divider">
+        <div class="item row">
+          <a class="col-md-4 col-12"
+             href="{{p.url}}"
+             target="_blank"><img
+            class="img-fluid project-image"
+            alt="{{p.title}}"
+            src="{{p.image}}"></a>
+          <div class="desc col-md-8 col-12">
+            <h3 class="title">
+              <a href="{{p.url}}"
+                 target="_blank">
+                {{p.title}}
+              </a>
+              <ng-container *ngIf="p.titleBadge">
+                &#8226;
+                <span class="badge badge-theme"
+                      [class.badge-theme-abandoned]="p.titleBadge === 'Abandoned'"
+                      [class.badge-theme-private]="p.titleBadge === 'Private'">{{p.titleBadge}}</span>
+              </ng-container>
+            </h3>
+            <p *ngFor="let text of p.texts"
+               [innerHTML]="text"></p>
+            <ng-container *ngFor="let sub of p.sub">
+              <h4 class="title">{{sub.title}}</h4>
+              <p *ngFor="let item of sub.texts"
+                 [innerHTML]="item"></p>
+            </ng-container>
+
+            <p *ngIf="p.githubLink">
+              <a class="more-link"
+                 href="{{p.githubLink}}"
+                 target="_blank">
+                <i class="fas fa-external-link-alt"></i>
+                View on GitHub
+              </a>
+            </p>
+          </div>
+        </div>
+      </ng-container>
+    </div>
+  </div>
+</section>

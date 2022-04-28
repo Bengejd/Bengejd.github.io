@@ -20,6 +20,30 @@ export class WorkExperienceComponent {
   }[]
     = [
     {
+      title: "Software Developer",
+      date: "2020 - Present",
+      company: "Cujonics, LLC",
+      url: "#",
+      texts: [
+        "<strong>Cujonics</strong> is a software development company that specializes in building software solutions for the healthcare industry.",
+        "As a developer at <strong>Cujonics</strong>, I have been responsible for building out new features and bug fixes for the company's existing software.",
+        "My most notable accomplishments with the company to date include:",
+        "• Developing the interactive dynamic form user interface that allows companies to create unique healthcare forms digitally that can be filled out by patients digitally, without the hassle of a physical copy of the form.",
+        "• Developing the workflow engine that allows for charting software to be loaded, captured and saved to the database in real time, for patient reporting and data analysis.",
+      ],
+    },
+    {
+      title: "Project Lead",
+      date: "2020 - 2021",
+      company: "BioAnalyt",
+      url: "https://bioanalyt.com/",
+      texts: [
+        "<strong>BioAnalyt</strong> is a food product-innovation company based in Teltow, Germany. They focus on developing and manufacturing a portable rapid test kit, which measures the concentration of numerous vitamins in food and biological fluids.",
+        "As the lead developer at BioAnalyt, I expanded their Minimum Viable Product that was thrown together as a proof of concept, into a fully functioning consumer facing application.",
+        "My duties involved turning design concepts into functioning application features, communicating progress with the product manager, setting realistic expectations based on requests and above all else - delivering quality code within those expectations.",
+      ],
+    },
+    {
       title: "Data Aggregation Engineer",
       url: "https://www.linkedin.com/company/brightfoxgo/about/",
       company: "BrightFox",
